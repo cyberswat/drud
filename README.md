@@ -1,6 +1,6 @@
 # Drud
 
-Evaluates an opscode chef cookbook's [metadata](https://github.com/cyberswat){http://docs.opscode.com/essentials_cookbook_metadata.html} and [github](https://github.com/) history to generate a README.md file. The README.md is placed in the root level of the cookbook. This forces cookbook developers to properly use metadata to document their cookbooks efficiently.  Additionally, it provides proper attribution for all committers in the project with links back to the contributors github profile. It is written to take advantage of cookbooks that properly utilize both Rake tasks and metadata.
+Evaluates an opscode chef cookbook's [metadata](http://docs.opscode.com/essentials_cookbook_metadata.html) and [github](https://github.com/) history to generate a README.md file. The README.md is placed in the root level of the cookbook. This forces cookbook developers to properly use metadata to document their cookbooks efficiently.  Additionally, it provides proper attribution for all committers in the project with links back to the contributors github profile. It is written to take advantage of cookbooks that properly utilize both Rake tasks and metadata.
 
 You can see this in use in our cookbooks. Our reference cookbook is https://github.com/newmediadenver/nmd-skeletor
 
